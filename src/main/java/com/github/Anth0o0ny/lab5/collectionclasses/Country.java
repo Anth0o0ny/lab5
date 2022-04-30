@@ -1,9 +1,14 @@
-package com.github.Anth0o0ny.lab5.collectionclasses;
+package com.github.anth0o0ny.lab5.collectionclasses;
 
 public enum Country {
-    RUSSIA,
-    USA,
-    GERMANY,
-    ITALY,
-    NORTH_KOREA;
+    RUSSIA("Россия"),
+    USA("США"),
+    GERMANY("Германия"),
+    ITALY("Италия"),
+    NORTH_KOREA("Северная Корея");
+    private final String title;
+    Country(String title){this.title = title;}
+
+    @Override
+    public String toString() {return title ;}
 }

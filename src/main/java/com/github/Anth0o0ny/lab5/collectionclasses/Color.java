@@ -1,9 +1,15 @@
-package com.github.Anth0o0ny.lab5.collectionclasses;
+package com.github.anth0o0ny.lab5.collectionclasses;
 
 public enum Color {
-    RED,
-    BLACK,
-    YELLOW,
-    ORANGE,
-    WHITE;
+    RED("Ярость"),
+    BLACK("Страх"),
+    YELLOW("Расслабление"),
+    ORANGE("Юмор"),
+    WHITE("Любовь");
+
+    private final String title;
+    Color(String title){this.title = title;}
+
+    @Override
+    public String toString() {return title ;}
 }
