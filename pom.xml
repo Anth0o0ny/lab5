@@ -22,7 +22,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>com.github.Anth0o0ny.lab5.Main</mainClass>
+                            <mainClass>com.github.anth0o0ny.lab5.Main</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
@@ -30,7 +30,7 @@
         </plugins>
     </build>
 
-    <groupId>com.github.Anth0o0ny.lab5</groupId>
+    <groupId>com.github.anth0o0ny.lab5</groupId>
     <artifactId>lab5</artifactId>
     <version>1.0</version>
 
